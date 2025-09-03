@@ -54,6 +54,7 @@ GRP_LNK = environ.get('GRP_LNK', 'https://t.me/DramaXship')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/DramaShip')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/KichuTG')
 UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/Completeddramas')
+DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "") # add multiple channels here, separated by single space
 AUTH_CHANNEL = [int(ch) for ch in AUTH_CHANNEL.strip().split()] if AUTH_CHANNEL else []
