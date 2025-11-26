@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b>Oi {},</b>\n\n<b>It's me</b> <a href='https://t.me/DramaClan1bot'><b>Ryohei Arisu</b></a>\n\n<b>\n"I can provide Completed & Ongoing dramas, as well as popular TV series & Anime. Note that Movie files are not available, You can send the name of the Drama or Series you're interested in either in the group or through private chat with the bot.".</b><b>\n\n<blockquote>‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/DramaClan">DramaClan</a></blockquote></b>"""
+    START_TXT = """<b>Oi {},</b>\n<b>It's me</b> <a href='https://t.me/DramaClan1bot'><b>Ryohei Arisu</b></a>\n<b>\n"I can provide Completed & Ongoing dramas, as well as popular TV series & Anime. Note that Movie files are not available, You can send the name of the Drama or Series you're interested in either in the group or through private chat with the bot.".</b><b>\n\n<blockquote>‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/DramaClan">DramaClan</a></blockquote></b>"""
 
     FEATURES_TXT = """<b>ʜᴇʀᴇ ɪꜱ ᴀʟʟ ᴍʏ ꜰᴜɴᴛɪᴏɴꜱ.</b>"""
 
