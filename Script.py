@@ -240,7 +240,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/ADramaShip">{file_name}</a></b>\n<b>✪ size- {file_size}</b>\n\n<b>Have A Nice Day 💖</b>\n\n<b>Bot: @AnyDramabot</b>\n\n<b>⚜️ Powered By : <a href="https://t.me/DramaShip">@ᴅʀᴀᴍᴀꜱʜɪᴘ</a></b>"""
+    CAPTION = """<b><a href="https://t.me/ADramaShip">{file_name}</a></b>\n<b>File Size :- {file_size}</b>\n\n<b>Powered By : <a href="https://t.me/DramaClan">@DramaClan</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
