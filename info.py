@@ -93,7 +93,7 @@ P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
-DELETE_TIME = int(environ.get("DELETE_TIME", "300"))  
+DELETE_TIME = int(environ.get("DELETE_TIME", "3000"))  
 LINK_MODE = is_enabled((environ.get('LINK_MODE', "True")), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
@@ -109,8 +109,8 @@ PM_SEARCH = bool(environ.get('PM_SEARCH', True))
 EMOJI_MODE = bool(environ.get('EMOJI_MODE', False)) 
 PAID_STREAM = bool(environ.get('PAID_STREAM', False)) 
 
-LANGUAGES = ["malayalam", "", "tamil", "", "english", "", "hindi", "", "telugu", "", "kannada", "", "gujarati", "", "marathi", "", "punjabi", ""]
-QUALITIES = ["240p", "", "360P", "", "480P", "", "540P", "", "720P", "", "1080P", "", "1440P", "", "2160P", ""]
+LANGUAGES = ["English", "", "Korean", "", "Japanese", "", "Chinese", "", "Hindi", ""]
+QUALITIES = ["480P", "", "540P", "", "720P", "", "1080P", ""]
 SEASONS = ["s01" , "s02" , "s03" , "s04", "s05" , "s06" , "s07" , "s08" , "s09" , "s10"]
 
 STREAM_MODE = bool(environ.get('STREAM_MODE', False))
