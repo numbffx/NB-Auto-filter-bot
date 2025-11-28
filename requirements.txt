@@ -6,7 +6,7 @@ marshmallow==3.26.1
 umongo
 requests
 bs4
-https://github.com/cinemagoer/cinemagoer
+git+https://github.com/cinemagoer/cinemagoer
 shortzy
 datetime
 pytz
