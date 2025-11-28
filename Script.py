@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b><blockquote>Hey {},</blockquote></b>\n<b>\n"Asian Dramas , Tv series , Anime"</b><b>\n\n<blockquote>‣ Do Join :- <a href="https://t.me/DramaClan">DramaClan</a></b>"""
+    START_TXT = """<b><blockquote>Hey {},</blockquote></b>\n<b>\n" Asian Dramas , Tv series , Anime "</b><b>\n\n<blockquote>‣ Do Join :- <a href="https://t.me/DramaClan">DramaClan</a></blockquote></b>"""
 
     FEATURES_TXT = """<b>ʜᴇʀᴇ ɪꜱ ᴀʟʟ ᴍʏ ꜰᴜɴᴛɪᴏɴꜱ.</b>"""
 
