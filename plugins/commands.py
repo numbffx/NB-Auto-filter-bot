@@ -335,7 +335,7 @@ async def start(client, message):
             k = await msg.reply(f"<b>♻️ ᴛʜɪꜱ ꜰɪʟᴇ ᴡɪʟʟ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀꜰᴛᴇʀ {get_time(DELETE_TIME)}</b>", quote=True)
             await asyncio.sleep(DELETE_TIME)
             await msg.delete()
-            await k.edit_text("<b>ʏᴏᴜʀ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ ɪꜱ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ !!</b>")
+            await k.edit_text("<b><blockquote>File has been deleted! 🤎</blockquote></b>")
             return
         except:
             pass
