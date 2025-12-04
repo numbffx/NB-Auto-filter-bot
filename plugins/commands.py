@@ -178,7 +178,7 @@ async def start(client, message):
                         print("Bot Ko AUTH_CHANNEL Per Admin Bana Bhai Pahile 🤧")
                         return
                     btn.append([
-                        InlineKeyboardButton(f"♻️ Do Join {i}♻️", url=invite_link.invite_link)
+                        InlineKeyboardButton(f" Update Channel {i} ", url=invite_link.invite_link)
                     ])
                 elif chnl not in AUTH_REQ_CHANNEL and not await is_subscribed(client, message.from_user.id, chnl):
                     try:
@@ -187,7 +187,7 @@ async def start(client, message):
                         print("Bot Ko AUTH_CHANNEL Per Admin Bana Bhai Pahile 🤧")
                         return
                     btn.append([
-                        InlineKeyboardButton(f"♻️ Do Join {i}♻️", url=invite_link.invite_link)
+                        InlineKeyboardButton(f" Update Channel {i} ", url=invite_link.invite_link)
                     ])
                 i += 1
 
