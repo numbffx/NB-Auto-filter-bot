@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b><blockquote>Hey {},</blockquote></b>\n<b>\n" Asian Dramas , Tv series , Anime "</b><b>\n\n<blockquote>➠ 𝗝𝗼𝗶𝗻 : @DramaClan\n➠ 𝗝𝗼𝗶𝗻 : @TvSeriesOcean</blockquote></b>"""
+    START_TXT = """<b><blockquote>Hey {},</blockquote></b>\n<b>\n" Note: Request only ongoing dramas! "</b><b>\n\n<blockquote>➠ 𝗝𝗼𝗶𝗻 : @DramaClan</blockquote></b>"""
 
     FEATURES_TXT = """<b>ʜᴇʀᴇ ɪꜱ ᴀʟʟ ᴍʏ ꜰᴜɴᴛɪᴏɴꜱ.</b>"""
 
@@ -233,7 +233,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b>{file_name}</b>\n\n<b>➠ 𝗝𝗼𝗶𝗻 : @DramaClan\n➠ 𝗝𝗼𝗶𝗻 : @TvSeriesOcean</b>"""
+    CAPTION = """<b>{file_name}</b>\n\n<b>➠ 𝗝𝗼𝗶𝗻 : @DramaClan</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
