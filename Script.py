@@ -233,7 +233,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b>{caption}</b>\n\n<b>➠ 𝗝𝗼𝗶𝗻 : @DramaClan</b>"""
+    CAPTION = """<b>{file_caption}</b>\n\n<b>➠ 𝗝𝗼𝗶𝗻 : @DramaClan</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
