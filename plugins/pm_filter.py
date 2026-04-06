@@ -146,27 +146,27 @@ async def next_page(bot, query):
             ]
             btn.insert(0, 
                 [ 
-                    InlineKeyboardButton("ᴘɪxᴇʟ", callback_data=f"qualities#{key}#0"),
-                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#0"),
-                    InlineKeyboardButton("ꜱᴇᴀꜱᴏɴ",  callback_data=f"seasons#{key}#0")
+                    InlineKeyboardButton("Quality", callback_data=f"qualities#{key}#0"),
+                    InlineKeyboardButton("Language", callback_data=f"languages#{key}#0"),
+                    InlineKeyboardButton("Season",  callback_data=f"seasons#{key}#0")
                 ]
             )
             btn.insert(1, [
-		InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/AM_FILMS"),
-                InlineKeyboardButton("📥 Sᴇɴᴅ Aʟʟ 📥", callback_data=f"sendfiles#{key}")
+		InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/DramaClan"),
+                InlineKeyboardButton("📥 Send All 📥", callback_data=f"sendfiles#{key}")
            
             ])
         else:
             btn = []
             btn.insert(0, 
                 [
-                    InlineKeyboardButton("ᴘɪxᴇʟ", callback_data=f"qualities#{key}#0"),
-                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#0"),
-                    InlineKeyboardButton("ꜱᴇᴀꜱᴏɴ",  callback_data=f"seasons#{key}#0")
+                    InlineKeyboardButton("Quality", callback_data=f"qualities#{key}#0"),
+                    InlineKeyboardButton("Language", callback_data=f"languages#{key}#0"),
+                    InlineKeyboardButton("Season",  callback_data=f"seasons#{key}#0")
                 ]
             )
             btn.insert(1, [
-                InlineKeyboardButton("📥 Sᴇɴᴅ Aʟʟ 📥", callback_data=f"sendfiles#{key}") 
+                InlineKeyboardButton("📥 Send All 📥", callback_data=f"sendfiles#{key}") 
            
             ])
         try:
