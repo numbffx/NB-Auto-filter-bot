@@ -152,7 +152,7 @@ async def next_page(bot, query):
                 ]
             )
             btn.insert(1, [
-		InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/DramaClan"),
+		InlineKeyboardButton("Support", url=f"https://t.me/DramaClan"),
                 InlineKeyboardButton("📥 Send All 📥", callback_data=f"sendfiles#{key}")
            
             ])
@@ -346,7 +346,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
                 ]
             )
             btn.insert(1, [
-		InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/DramaClan"),
+		InlineKeyboardButton("Support", url=f"https://t.me/DramaClan"),
                 InlineKeyboardButton("📥 Send All 📥", callback_data=f"sendfiles#{key}")
            
             ])
@@ -361,7 +361,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
                 ]
             )
             btn.insert(1, [
-		InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/DramaClan"),
+		InlineKeyboardButton("Support", url=f"https://t.me/DramaClan"),
                 InlineKeyboardButton("📥 Send All 📥", callback_data=f"sendfiles#{key}")
            
             ])
@@ -499,7 +499,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
                 ]
             )
             btn.insert(1, [
-		InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/DramaClan"),
+		InlineKeyboardButton("Support", url=f"https://t.me/DramaClan"),
                 InlineKeyboardButton("📥 Send All 📥", callback_data=f"sendfiles#{key}")
             
             ])
@@ -513,7 +513,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
                 ]
             )
             btn.insert(1, [
-		InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/DramaClan"),
+		InlineKeyboardButton("Support", url=f"https://t.me/DramaClan"),
                 InlineKeyboardButton("📥 Send All 📥", callback_data=f"sendfiles#{key}")            
             ])
         if n_offset != "":
@@ -651,7 +651,7 @@ async def filter_season_cb_handler(client: Client, query: CallbackQuery):
                 ]
             )
             btn.insert(1, [
-		InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/DramaClan"),
+		InlineKeyboardButton("Support", url=f"https://t.me/DramaClan"),
                 InlineKeyboardButton("📥 Send All 📥", callback_data=f"sendfiles#{key}")
 
             ])
@@ -665,7 +665,7 @@ async def filter_season_cb_handler(client: Client, query: CallbackQuery):
                 ]
             )
             btn.insert(1, [
-		InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/DramaClan"),
+		InlineKeyboardButton("Support", url=f"https://t.me/DramaClan"),
                 InlineKeyboardButton("📥 Send All 📥", callback_data=f"sendfiles#{key}")            
             ])
         if n_offset != "":
