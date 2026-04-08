@@ -1958,7 +1958,7 @@ async def auto_filter(client, msg, spoll=False):
             ]
         )
         btn.insert(1, [
-	    InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/DramaClan"),
+	    InlineKeyboardButton("Support", url=f"https://t.me/DramaClan"),
             InlineKeyboardButton("📥 Send All 📥", callback_data=f"sendfiles#{key}")
             
         ])
@@ -1972,7 +1972,7 @@ async def auto_filter(client, msg, spoll=False):
             ]
         )
         btn.insert(1, [
-	    InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/DramaClan"),
+	    InlineKeyboardButton("Support", url=f"https://t.me/DramaClan"),
             InlineKeyboardButton("📥 Send All 📥", callback_data=f"sendfiles#{key}")
             
         ])
