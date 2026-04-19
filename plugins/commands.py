@@ -332,7 +332,7 @@ async def start(client, message):
                 except:
                     return
             await msg.edit_caption(f_caption)
-            k = await msg.reply(f"<b>♻️ This file will auto delete in {get_time(DELETE_TIME)}, please forward it to Saved Messages before downloading.</b>", quote=True)
+            k = await msg.reply(f"<b>♻️ ᴛʜɪꜱ ꜰɪʟᴇ ᴡɪʟʟ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ɪɴ {get_time(DELETE_TIME)}, ᴘʟᴇᴀꜱᴇ ꜰᴏʀᴡᴀʀᴅ ɪᴛ ᴛᴏ ꜱᴀᴠᴇᴅ ᴍᴇꜱꜱᴀɢᴇꜱ ʙᴇꜰᴏʀᴇ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ.</b>", quote=True)
             await asyncio.sleep(DELETE_TIME)
             await msg.delete()
             await k.edit_text("<blockquote>File has been deleted! 🤎</blockquote>")
@@ -372,7 +372,7 @@ async def start(client, message):
         protect_content=settings.get('file_secure', PROTECT_CONTENT),
         reply_markup=InlineKeyboardMarkup(btn)
     )
-    k = await msg.reply(f"<b>♻️ This file will auto delete in {get_time(DELETE_TIME)}, please forward it to Saved Messages before downloading.</b>", quote=True)     
+    k = await msg.reply(f"<b>♻️ ᴛʜɪꜱ ꜰɪʟᴇ ᴡɪʟʟ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ɪɴ {get_time(DELETE_TIME)}, ᴘʟᴇᴀꜱᴇ ꜰᴏʀᴡᴀʀᴅ ɪᴛ ᴛᴏ ꜱᴀᴠᴇᴅ ᴍᴇꜱꜱᴀɢᴇꜱ ʙᴇꜰᴏʀᴇ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ.</b>", quote=True)     
     await asyncio.sleep(DELETE_TIME)
     await msg.delete()
     await k.edit_text("<blockquote>File has been deleted! 🤎</blockquote>")
