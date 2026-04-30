@@ -110,7 +110,7 @@ EMOJI_MODE = bool(environ.get('EMOJI_MODE', False))
 PAID_STREAM = bool(environ.get('PAID_STREAM', False)) 
 
 LANGUAGES = ["English", "", "Korean", "", "Japanese", "", "Chinese", "", "Hindi", ""]
-QUALITIES = ["480P", "", "540P", "", "720P", "", "1080P", ""]
+QUALITIES = ["480P", "", "540P", "", "720P", "", "1080P", "", "2160p"]
 SEASONS = ["s01" , "s02" , "s03" , "s04", "s05" , "s06" , "s07" , "s08" , "s09" , "s10"]
 
 STREAM_MODE = bool(environ.get('STREAM_MODE', False))
