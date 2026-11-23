@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b><blockquote>Hey {},</blockquote></b>\n<b>\n" Note: Request only ongoing dramas! "</b><b>\n\n<blockquote>➠ 𝗝𝗼𝗶𝗻 : @DramaClan</blockquote></b>"""
+    START_TXT = """<b><blockquote>Hey {},</blockquote></b>\n<b>\n" Heyloo Shuttumanis.!🫣🫶🏼 "</b>"""
 
     FEATURES_TXT = """<b>ʜᴇʀᴇ ɪꜱ ᴀʟʟ ᴍʏ ꜰᴜɴᴛɪᴏɴꜱ.</b>"""
 
