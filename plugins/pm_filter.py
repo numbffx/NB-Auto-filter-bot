@@ -147,7 +147,6 @@ async def next_page(bot, query):
             btn.insert(0, 
                 [ 
                     InlineKeyboardButton("Quality", callback_data=f"qualities#{key}#0"),
-                    InlineKeyboardButton("Language", callback_data=f"languages#{key}#0"),
                     InlineKeyboardButton("Season",  callback_data=f"seasons#{key}#0")
                 ]
             )
@@ -161,7 +160,6 @@ async def next_page(bot, query):
             btn.insert(0, 
                 [
                     InlineKeyboardButton("Quality", callback_data=f"qualities#{key}#0"),
-                    InlineKeyboardButton("Language", callback_data=f"languages#{key}#0"),
                     InlineKeyboardButton("Season",  callback_data=f"seasons#{key}#0")
                 ]
             )
@@ -341,7 +339,6 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(0, 
                 [ 
                     InlineKeyboardButton("Quality", callback_data=f"qualities#{key}#0"),
-                    InlineKeyboardButton("Language", callback_data=f"languages#{key}#0"),
                     InlineKeyboardButton("Season",  callback_data=f"seasons#{key}#0")
                 ]
             )
@@ -356,7 +353,6 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(0, 
                 [
                     InlineKeyboardButton("Quality", callback_data=f"qualities#{key}#0"),
-                    InlineKeyboardButton("Language", callback_data=f"languages#{key}#0"),
                     InlineKeyboardButton("Season",  callback_data=f"seasons#{key}#0")
                 ]
             )
@@ -494,7 +490,6 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(0, 
                 [
                     InlineKeyboardButton("Quality", callback_data=f"qualities#{key}#0"),
-                    InlineKeyboardButton("Language", callback_data=f"languages#{key}#0"),
                     InlineKeyboardButton("Season",  callback_data=f"seasons#{key}#0")
                 ]
             )
@@ -508,7 +503,6 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(0, 
                 [
                     InlineKeyboardButton("Quality", callback_data=f"qualities#{key}#0"),
-                    InlineKeyboardButton("Language", callback_data=f"languages#{key}#0"),
                     InlineKeyboardButton("Season",  callback_data=f"seasons#{key}#0")
                 ]
             )
@@ -646,7 +640,6 @@ async def filter_season_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(0, 
                 [
                     InlineKeyboardButton("Quality", callback_data=f"qualities#{key}#0"),
-                    InlineKeyboardButton("Language", callback_data=f"languages#{key}#0"),
                     InlineKeyboardButton("Season",  callback_data=f"seasons#{key}#0")
                 ]
             )
@@ -660,7 +653,6 @@ async def filter_season_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(0, 
                 [
                     InlineKeyboardButton("Quality", callback_data=f"qualities#{key}#0"),
-                    InlineKeyboardButton("Language", callback_data=f"languages#{key}#0"),
                     InlineKeyboardButton("Season",  callback_data=f"seasons#{key}#0")
                 ]
             )
@@ -1953,7 +1945,6 @@ async def auto_filter(client, msg, spoll=False):
         btn.insert(0, 
             [
                 InlineKeyboardButton("Quality", callback_data=f"qualities#{key}#0"),
-                InlineKeyboardButton("Language", callback_data=f"languages#{key}#0"),
                 InlineKeyboardButton("Season",  callback_data=f"seasons#{key}#0")
             ]
         )
@@ -1967,7 +1958,6 @@ async def auto_filter(client, msg, spoll=False):
         btn.insert(0, 
             [
                 InlineKeyboardButton("Quality", callback_data=f"qualities#{key}#0"),
-                InlineKeyboardButton("Language", callback_data=f"languages#{key}#0"),
                 InlineKeyboardButton("Season",  callback_data=f"seasons#{key}#0")
             ]
         )
