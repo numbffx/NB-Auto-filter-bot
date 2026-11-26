@@ -21,12 +21,12 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-PICS = (environ.get('PICS', 'https://files.catbox.moe/6lg6v4.jpg')).split()  # Sample pic
+PICS = (environ.get('PICS', 'https://i.ibb.co/6xDRtsm/8e49b538-05b7-4d29-82ea-c71a758bcbb6.jpg')).split()  # Sample pic
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/0593a3103ba1b9a5855bf.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/a96c590ca726b2dbb9d96.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/nwn.jpg'))
-FSUB_IMG = (environ.get('FSUB_PICS', 'https://files.catbox.moe/7qf1sb.jpg')).split() 
+FSUB_IMG = (environ.get('FSUB_PICS', 'https://i.ibb.co/GvBzjRj2/0cdd3d09-bfa3-41ad-9c81-19aa26f83e21.jpg')).split() 
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()] 
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
